@@ -1,0 +1,64 @@
+<!--Etiqueta que le indica al navegador que este archivo debe interpretarse bajo estándar HMTL5-->
+<!DOCTYPE html>
+<!--<html></html> Inicio del documento HTML-->
+<!--lang="es" define el idioma del documento. En este caso, español-->
+<html lang="es">
+    <!--Contiene metadata del documento-->
+    <head>
+        <!--Define el texto que aparece en la pestaña de la página web-->
+        <title>Página web de prueba</title>
+    </head>
+    <!--Define todo el contenido visible del documento, que será interpretado y mostrado por el navegador
+    style es un atributo HTML que permite asignar estilos CSS, en este caso el color-->
+    <body style="background-color: antiquewhite;">
+        <!--Etiqueta que crea un título. Va desde h1 hasta h6. Entre más aumenta el número más pequeño se hace el texto, sin llegar a ser
+        un texto normal de párrafo-->
+        <h1>Titulo</h1>
+        <!--Etiqueta de creación de párrafos. 
+        tittle define un texto que aparecerá en la posición del mouse al hacer hover sobre el
+        texto. 
+        style permite insertar  un estilo css específico para el tag, en este caso, el color del texto contenido en el párrafo
+            font-size: Tamaño del texto.
+            text-align: alineación del texto
+            font-family: tipo de letra-->
+        <p title="Soy un tooltip" 
+        style="color: darkblue; font-size: 120%; text-align: center; font-family: 'Courier New', Courier, monospace;">
+            <!--Texto en negrita--><b>Lorem ipsum dolor sit amet</b>,
+            <!--Texto con alta importancia dentro de la página web. Adicionalmente también se muestra en negrita-->
+            <strong>adipiscing elit</strong>, 
+            <!--Itálica. Utilizado para definiciones, frases en otro idioma, pensamientos, etc.-->
+            <i>do eiusmod tempor incididunt</i> ut labore et dolore magna aliqua. <!--salto de línea--><br>
+            <!--Texto que representa énfasis en algo. También se muestra en itálica y los lectores de voz para accesibilidad lo 
+            leen en un tono de alto estrés-->
+            <em>enim ad minim veniam</em>, quis nostrud exercitation 
+            <!--Texto pequeño--><small>laboris nisi ut aliquip ex</small>  
+            ea <!--Texto subrayado y de alta importancia--><mark>consequat</mark>. Duis 
+            <!--indica al navegador que este texto ha sido eliminado. Se muestra tachado--><del>irure dolor</del> 
+            <!--indica que un texto ha sido insertado y se muestra con una barra baja--><ins>in reprehenderit</ins> in voluptate 
+            <!--Suele usarse para fórmulas químicas y se muestra medio caracter por debajo de la línea--><sub>esse cillum dolore</sub> 
+            eu fugiat <!--Se muestra medio caracter por encima de la línea. A veces se renderiza en letra pequeña-->
+            <sup>pariatur. Excepteur sint occaecat</sup> cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum."</p>
+            <!--separador horizontal-->
+            <hr>
+            <!--Esta es la manera de insertar un link en un texto. El texto subrayado con el vínculo sería Google Link-->
+            <a href="https://www.google.com.co">Google Link</a>
+            <hr>
+            <!--Permite insertar imagenes en la página web.
+            src especifica la ruta relativa o absoluta de la imagen
+            alt especifica un texto en caso de que la imagen demore en cargar o de que alguien use la opción de accesibilidad
+            width ancho de la imagen
+            height alto de la imagen-->
+            <img src="sources/img-example.jpg" alt="web design image" width="900" height="600">
+            <!--una etiqueta de párrafo que preserva el formato tanto para espacios den blanco como para saltos de línea.-->
+            <pre>
+                My Bonnie lies over the ocean.
+                
+                My Bonnie lies over the sea.
+
+                My Bonnie lies over the ocean.
+                
+                Oh, bring back my Bonnie to me.
+            </pre>
+    </body>
+</html>
