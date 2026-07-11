@@ -1,0 +1,1 @@
+alert("Javascript alert with external script")
